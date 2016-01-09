@@ -13,20 +13,23 @@ The tool I'm using at the moment is the surfraw (sr) tool. (Written by Julianass
 
 Here's the tweaking I've done to make this usable
 
-== Commands ==
+# Commands
 
     apt-get install surfraw, curl, html2text
 
-== tsr (Text sr) ==
+# tsr (Text sr)
+
     #!/bin/bash
     # A version of sr that uses a curl
     sr -browser=tsr-browser.sh "$@"
 
-== tsr-browser.sh ==
+# tsr-browser.sh
+
     #!/bin/bash
     curl -L "$@" | html2text
 
-== textcurl.sh ==
+# textcurl.sh
+
     #!/bin/bash
     # Quickly view a url
     curl -Lq "$@" | html2text
