@@ -1,8 +1,9 @@
 #!/bin/bash
-set -e 
+set -e
 
 here="$(dirname ${BASH_SOURCE[0]})"
 cd $here
+
 git add .
-git commit 
+git commit
 git push

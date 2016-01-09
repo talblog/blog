@@ -1,4 +1,3 @@
-Here is a blog on github.
+Here is a blog on github. Click on the md files for content.
 
-[Test Post](post1.md)
 
