@@ -1,4 +1,4 @@
 Here is a blog on github.
 
-[Link]
+[Test Post](post1.md)
 
